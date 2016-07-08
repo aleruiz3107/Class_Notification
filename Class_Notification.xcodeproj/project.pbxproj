@@ -60,10 +60,8 @@
 		4E57FE0D1D306CB600A5BFE4 /* Class_Notification */ = {
 			isa = PBXGroup;
 			children = (
-				4E57FE111D306CB600A5BFE4 /* AppDelegate.h */,
-				4E57FE121D306CB600A5BFE4 /* AppDelegate.m */,
-				4E57FE141D306CB600A5BFE4 /* ViewController.h */,
-				4E57FE151D306CB600A5BFE4 /* ViewController.m */,
+				4E57FE291D306D9600A5BFE4 /* Main */,
+				4E57FE281D306D3E00A5BFE4 /* Cotrollers */,
 				4E57FE171D306CB600A5BFE4 /* Main.storyboard */,
 				4E57FE1D1D306CB700A5BFE4 /* Assets.xcassets */,
 				4E57FE1F1D306CB700A5BFE4 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				4E57FE0F1D306CB600A5BFE4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E57FE281D306D3E00A5BFE4 /* Cotrollers */ = {
+			isa = PBXGroup;
+			children = (
+				4E57FE141D306CB600A5BFE4 /* ViewController.h */,
+				4E57FE151D306CB600A5BFE4 /* ViewController.m */,
+			);
+			name = Cotrollers;
+			sourceTree = "<group>";
+		};
+		4E57FE291D306D9600A5BFE4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4E57FE111D306CB600A5BFE4 /* AppDelegate.h */,
+				4E57FE121D306CB600A5BFE4 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Class_Notification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RuizCom.Class-Notification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,7 +296,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Class_Notification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RuizCom.Class-Notification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
